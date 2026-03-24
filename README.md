@@ -11,3 +11,10 @@ Questions to Answer:
 /*
 
 You will see other uses like uploading practice exercises and also random tutorial queries to help me have a better understanding of the tool I will be using.
+
+    - Introduction
+    - Background
+    - Tools I Used
+    - The Analysis
+    - What I learned
+    - Conclusion
