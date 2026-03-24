@@ -62,3 +62,20 @@ WHERE
 ORDER BY
 job_title_short ASC
 ;
+
+
+/* Find all jobs postings in the job_postings_fact where the job_tittle is exactly "Engineer" and
+one character followed after the term. get the tables:
+    job_id
+    job_title
+    job_posted_date
+*/
+SELECT
+	job_id,
+    job_title,
+    job_posted_date
+FROM
+	job_postings_fact
+    
+WHERE
+job_title LIKE 'Engineer_%'
